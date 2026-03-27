@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+web/dist/
+mobile/.expo/
+mobile/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp
+tmp/
+log/
+
+# Cayu Pilot injected files (managed by cayu-pilot, not committed)
+/.claude/
+/web/src/cayu-sdk.ts
+/web/src/lib/cayu/
+/vite-plugins/cayu-tagger/
+/vite-plugins/cayu-build-errors/
+/eslint.config.js
+# Note: /mobile/cayu-mobile-sdk.ts is committed as a stub, pilot overwrites it
+/mobile/lib/cayu/

@@ -1,0 +1,26 @@
+# Django 5.2 LTS + DRF
+django>=5.2,<5.3
+djangorestframework>=3.16.1
+django-cors-headers>=4.6
+django-filter>=25.2
+drf-spectacular>=0.29
+django-environ>=0.12
+psycopg[binary]>=3.2
+whitenoise>=6.8
+django-storages[s3]>=1.14
+
+# Production server (ASGI for HTTP + WebSocket support)
+uvicorn[standard]>=0.32
+
+# Background task processing
+celery>=5.4
+redis>=5.0
+
+# HTTP client for OAuth
+requests>=2.31
+
+# JWT authentication
+djangorestframework-simplejwt>=5.3
+
+# Email (SendGrid)
+sendgrid>=6.11
