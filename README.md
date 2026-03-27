@@ -12,6 +12,10 @@ This project was built to solve the growing complexity of fraud in the African f
 
 ---
 
+Refer to this link for the updated project: 
+https://github.com/Query-Crushers/switchguard-analytics
+
+
 ## 👥 The Team: Query Crushers
 * **Favour Okoli** – Team Lead / Lead Data Analyst & ML Engineer
 * **Gloria Boateng** – Frontend Developer
